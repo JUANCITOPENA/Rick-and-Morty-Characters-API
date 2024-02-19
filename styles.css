@@ -1,0 +1,178 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Color de fondo suave */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto; /* Centrar horizontalmente */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: rgba(255, 255, 255, 0.8); /* Color de fondo casi transparente */
+}
+
+.navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.5); /* Color de texto casi transparente */
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgba(0, 0, 0, 0.8); /* Color de texto más visible al pasar el mouse */
+}
+
+.container .row {
+    margin-top: 20px;
+}
+
+.container .row p {
+    margin-bottom: 20px;
+}
+
+/* Estilos para el pie de página */
+.footer {
+    background-color: #343a40; /* Fondo oscuro para el pie de página */
+    color: #fff; /* Color de texto blanco para el pie de página */
+    padding: 15px 0;
+    display: flex; /* Hacer que el footer sea un flex container */
+    justify-content: center; /* Centrar horizontalmente el contenido */
+    align-items: center; /* Centrar verticalmente el contenido */
+}
+
+.footer a {
+    color: #fff; /* Color de texto blanco para los enlaces del pie de página */
+}
+
+.footer a:hover {
+    color: #ccc; /* Color de texto gris claro al pasar el ratón por los enlaces del pie de página */
+}
+
+.container.mt-5 {
+    justify-content: center;
+    text-align: justify;
+}
+
+.container.mt-5 .row {
+    justify-content: center;
+}
+
+.container.mt-5 .row p {
+    margin: 20px;
+    text-align: justify;
+}
+
+/* Estilos para el contenedor principal */
+.space {
+    padding: 20px;
+}
+
+/* Estilos para el contenedor de habilidades */
+.skills {
+    text-align: center;
+}
+
+.skills h3 {
+    font-size: 24px;
+}
+
+.skills p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el contenedor de habilidades individuales */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill {
+    margin: 10px;
+}
+
+/* Estilos para los enlaces */
+.skill a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Estilos para los iconos */
+.skill i {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.skill span {
+    font-size: 14px;
+}
+
+/* Consultas de medios para iconos responsivos */
+@media only screen and (min-width: 576px) {
+    .skill i {
+        font-size: 48px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .skill i {
+        font-size: 64px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .skill i {
+        font-size: 72px;
+    }
+}
+
+
+.icon-container {
+    display: flex;
+    justify-content: space-around; /* Distribuye uniformemente los elementos a lo largo del contenedor */
+    margin-top: 8px; /* Añade margen superior para separar del párrafo */
+}
+
+/* Estilos para los iconos de redes sociales */
+.social ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.social ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social ul li:last-child {
+    margin-right: 0;
+}
+
+.social ul li a {
+    color: inherit;
+}
+
+/* Estilos para el icono de correo electrónico */
+.email-icon {
+    margin-right: 5px;
+    
+}
+.email-paragraph {
+    text-align: center;
+}
+
+.email-icon.larger {
+    font-size: 30px;
+}
+
+.email-address strong {
+    font-size: 16px;
+}
+
