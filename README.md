@@ -5,6 +5,11 @@ Este proyecto consiste en una API basada en el universo de la serie de televisi�
 
 ---
 
+## Probar el Proyecto
+
+Puedes probar el proyecto en acción visitando la siguiente URL: [Probar el Proyecto](https://juancitopena.github.io/Rick-and-Morty-Characters-API/index.html)
+
+---
 ## Tecnologías Utilizadas
 - HTML
 - CSS
@@ -35,11 +40,6 @@ La API se basa en la serie de televisión y proporciona datos canónicos vistos 
 - Paginación: Permite navegar a través de grandes conjuntos de datos de forma eficiente.
 - Búsqueda y Filtro: Los usuarios pueden buscar y filtrar personajes por nombre, especie, género, etc.
 - Botón "Ver Más": Proporciona detalles adicionales sobre cada personaje con un solo clic.
-
----
-## Probar el Proyecto
-
-Puedes probar el proyecto en acción visitando la siguiente URL: [Probar el Proyecto](https://tu-url-del-proyecto.com)
 
 ---
 
