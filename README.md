@@ -18,7 +18,7 @@ Puedes probar el proyecto en acción visitando la siguiente URL: [Probar el Proy
 
 ---
 
-##🎯 Propósito 🎯
+## 🎯Propósito
  El propósito de esta aplicación es proporcionar a los programadores y aprendices una oportunidad para aprender cómo consumir una API, conectar con ella y presentar información de manera efectiva. Además, el proyecto ofrece la oportunidad de aplicar varias lógicas y diseños, como:
 
 - Utilizar Bootstrap para organizar los personajes en tarjetas y presentarlas de manera visualmente atractiva.
